@@ -20,5 +20,9 @@ public class July
         System.out.println(myobject.y);
 
         //how to call the object??
+
+        int num = 22;
+        String an = (num >= 22) ? "hello" : "hey";
+        System.out.println(an);
     }
 }
