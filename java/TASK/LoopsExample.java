@@ -7,6 +7,7 @@ public class LoopsExample
     {
         //initialized a variable with varible name x data type is int and the value is o
         int x = 0;
+        int y = 0;
         //the while loop
         while (x <= 10)//the condition
         //the block of  code to be excetuded if  the conditiion is false
@@ -15,5 +16,15 @@ public class LoopsExample
             //incliment
             x++;
         }
+        System.out.println();
+
+
+        // do while loop
+        do 
+        {
+            System.out.println(y);
+            y++;
+        }
+        while(y <= 10);
     }
 }
