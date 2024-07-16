@@ -1,0 +1,17 @@
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    padding: 200px;
+    border: 1px solid #ccc;
+    border-radius:5px ;
+    margin: 0 auto;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
