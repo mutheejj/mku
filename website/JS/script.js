@@ -1,23 +1,22 @@
-//this is how to replace an element or a section using Id
-document.getElementById("paragrap1").innerHTML= 5 + 5;
+//variables 
 
-//to write directly using javascript
-document.write(5 + 6);
+//declaration
+let x;
 
-/* to alert
-in js*/
+// assig a value
 
-window.alert("welcome");
-alert("thankyou");
-console.log(300);
-
-// declaring variables
-
-let x = 10;
+x = 100;
 console.log(x);
 
-let y = 20;
-console.log(y);
-document.write("\n");
+let name = "John Muthee";
+console.log(name);
 
-document.write(x + y);
+let age = 19;
+console.log(age);
+
+let Student = true;
+console.log(Student);
+
+document.getElementById("p1").textContent = `My name is : ${name}`;
+document.getElementById("p2").textContent = `My age is : ${age}`;
+document.getElementById("p3").textContent = `I am a student is : ${Student}`;
